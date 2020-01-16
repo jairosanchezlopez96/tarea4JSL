@@ -12,4 +12,9 @@ package Clases;
 public class Clase {
  int alumnos;
  String nombre;
+
+ public class(int alumnos, String nombre) {
+
+	this.alumnos=alumnos;
+	this.nombre=nombre;
 }
