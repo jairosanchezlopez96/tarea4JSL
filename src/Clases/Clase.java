@@ -13,8 +13,25 @@ public class Clase {
  int alumnos;
  String nombre;
 
- public class(int alumnos, String nombre) {
+    public int getAlumnos() {
+        return alumnos;
+    }
+
+    public void setAlumnos(int alumnos) {
+        this.alumnos = alumnos;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+ public Clase(int alumnos, String nombre) {
 
 	this.alumnos=alumnos;
 	this.nombre=nombre;
 }
+ 
