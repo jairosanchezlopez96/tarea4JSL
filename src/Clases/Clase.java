@@ -35,3 +35,14 @@ public class Clase {
 	this.nombre=nombre;
 }
  
+ public String toString(){
+     String mensaje= "Este alumno "+this.Alumnos+" se llama: "+this.nombre;
+     return mensaje;
+ }
+ 
+ 
+ 
+ 
+}
+ 
+
