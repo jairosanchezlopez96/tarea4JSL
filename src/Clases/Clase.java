@@ -36,7 +36,7 @@ public class Clase {
 }
  
  public String toString(){
-     String mensaje= "Este alumno "+this.Alumnos+" se llama: "+this.nombre;
+     String mensaje= "Este alumno "+this.alumnos+" se llama: "+this.nombre;
      return mensaje;
  }
  
